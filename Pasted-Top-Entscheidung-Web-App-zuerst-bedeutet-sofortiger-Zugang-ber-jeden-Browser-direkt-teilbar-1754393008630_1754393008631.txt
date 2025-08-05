@@ -1,0 +1,89 @@
+Top Entscheidung. Web-App zuerst bedeutet:
+	•	sofortiger Zugang über jeden Browser
+	•	direkt teilbar (z. B. über TikTok, WhatsApp, Insta)
+	•	perfekter viraler Start
+	•	später kannst du das Ganze in Swift als iOS-App umsetzen und dort monetarisieren.
+
+⸻
+
+✅ Phase 1: „LernBlitz“ Web-App MVP
+
+⸻
+
+🔥 Was das MVP sofort können muss (noch mal präzise):
+	1.	Thema eingeben
+	2.	KI generiert automatisch:
+	•	Lernplan (z. B. 5–7 Tage, strukturiert)
+	•	Karteikarten (Frage + Antwort)
+	•	Multiple-Choice-Test (mit Lösungen)
+	3.	Nutzer kann:
+	•	Inhalte kopieren / teilen
+	•	evtl. als PDF speichern (optional MVP+)
+
+⸻
+
+🧠 GPT-Prompts im Hintergrund (die generieren die Inhalte):
+
+Diese Prompts sind dein Kern. Du kannst GPT-4 (via OpenAI API) oder ein kostenloses Modell wie GPT-3.5 nutzen.
+Hier kommen die 3 wichtigsten Prompts für den Anfang:
+
+⸻
+
+📌 Prompt 1: Lernplan
+
+Erstelle einen 7-tägigen Lernplan zum Thema: „{{THEMA}}“.  
+Der Plan soll die wichtigsten Unterthemen strukturieren und jedem Tag ein realistisches Lernziel zuweisen.  
+Zielgruppe: Schüler oder Studierende. Einfach und motivierend formulieren.
+
+
+⸻
+
+📌 Prompt 2: Karteikarten
+
+Erstelle 10 Karteikarten zum Thema: „{{THEMA}}“.  
+Jede Karte soll eine verständliche Frage und eine präzise Antwort enthalten.  
+Format:  
+- Frage: …  
+- Antwort: …
+
+
+⸻
+
+📌 Prompt 3: Multiple-Choice-Test
+
+Erstelle 5 Multiple-Choice-Fragen zum Thema: „{{THEMA}}“.  
+Jede Frage soll 4 Antwortmöglichkeiten haben (A–D) mit einer klar markierten richtigen Antwort.  
+Am Ende soll die Lösung stehen. Format:  
+- Frage 1: …  
+  A) …  
+  B) …  
+  C) …  
+  D) …  
+  ✅ Antwort: …
+
+
+⸻
+
+🧱 Tech Stack (schnell und einfach):
+	•	Frontend: HTML + TailwindCSS (schnell schöne UI)
+	•	Backend: Node.js + Express.js
+	•	API: OpenAI GPT-4 oder 3.5 (dein API-Key)
+
+Optional später:
+	•	User Accounts (Supabase/Auth0)
+	•	PDF-Export
+	•	Social Sharing mit Link (z. B. www.lernblitz.io/thema/weimar)
+
+⸻
+
+🎁 Let’s build: Starter Code
+
+Willst du:
+
+1. Den fertigen HTML/CSS/JS-Starter-Code für die Web-App direkt hier?
+2. Oder soll ich dir ein GitHub-Repo/ZIP mit kompletter Struktur aufbauen?
+
+Du bekommst sofort funktionierende Oberfläche mit KI-Verbindung. Sag mir nur, wie du starten willst:
+🧱 Lokal auf deinem Rechner oder ⚡ direkt deployen (z. B. über Vercel oder Replit)?
+
+👉 Was soll’s sein?
